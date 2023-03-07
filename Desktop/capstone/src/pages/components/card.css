@@ -1,0 +1,28 @@
+.card {
+  height: 20vh;
+  width: 22vh;
+  background-color: purple;
+  justify-content: space-between;
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-radius: 1em;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.card-name {
+  color: white;
+  padding: 0;
+  font-size: 1em;
+  margin: 0;
+  font-family: DM Sans;
+}
+.card-image img {
+  border-radius: 1em;
+  height: 14vh;
+  width: 20vh;
+  object-fit: cover;
+}
+.green-border {
+  border: 3px solid white;
+}

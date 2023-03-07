@@ -1,0 +1,76 @@
+.btn {
+  text-decoration: none;
+  background-color: #72db73;
+  border-radius: 33px;
+  color: white;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.btn p {
+  text-decoration: none;
+  color: white;
+}
+input {
+  width: 100%;
+  background-color: #292929;
+  border: none;
+  border-radius: 0.2em;
+  padding: 1em 1.4em;
+  margin: 0.4em 0.5em;
+  letter-spacing: 0.04em;
+  color: white;
+}
+input[type="placeholder"] {
+  color: #7c7c7c;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+
+.login {
+  width: 20%;
+  height: auto;
+  border: none;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.signup {
+  width: 100%;
+  height: auto;
+  padding: 0.7em 0;
+  font-size: 20px;
+}
+
+.err {
+  border: red solid 1px;
+}
+
+.err-msg {
+  color: red;
+  margin: 0 0.6em;
+  padding: 0 0;
+  font-size: 0.6em;
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.red-border {
+  border-color: red;
+  border: red dashed 0.001em;
+}
+.next-page {
+  margin-top: 3em;
+  margin-bottom: 5em;
+  margin-left: 40%;
+  width: 22vh;
+  height: 6vh;
+  background-color: #148a08;
+}
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 3em;
+}
+.black-text {
+  color: black;
+}

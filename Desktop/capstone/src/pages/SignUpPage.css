@@ -1,0 +1,152 @@
+.signup-page {
+  
+  width: 100vw;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftside {
+  background-color: black;
+  flex: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../public/image-13.png");
+}
+
+.rightside {
+  background-color: black;
+  flex: 1;
+  align-items: center;
+}
+.container1-leftside .text-white {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-right: 2em;
+}
+
+.text-white {
+  color: white;
+}
+.roboto {
+  font-family: Roboto;
+}
+.container1-leftside {
+  margin-top: 3em;
+  margin-left: 3em;
+  align-items: center;
+}
+
+.rightside-container {
+  text-align: center;
+  padding: 2em 20%;
+}
+.align-left {
+  text-align: left;
+}
+.email-google {
+  width: 100%;
+
+  justify-content: center;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.email-google a {
+  text-decoration: none;
+  color: white;
+}
+.input-container InputField {
+  margin-top: 22px;
+}
+.input-container {
+  /* overflow: hidden; */
+  padding-right: 2em;
+}
+.email-google {
+  margin-bottom: 2em;
+}
+.checkbox {
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+  width: 1px;
+}
+
+.checkbox-conatiner {
+  width: 100%;
+
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.checkbox-conatiner input {
+  width: 1.5em;
+  height: 2em;
+  background-color: #d9d9d9;
+}
+.checkbox-conatiner label {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  line-height: auto;
+  align-items: center;
+  margin-left: 2px;
+  /* margin-right: 2em; */
+  font-family: DM Sans;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #7c7c7c;
+}
+
+.text-grey {
+  color: #7c7c7c;
+  font-size: 1em;
+}
+.text-green {
+  color: #72db73;
+}
+.text-grey a {
+  text-decoration: none;
+}
+.W500 {
+  font-weight: 500;
+}
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.super-app {
+  font-family: "Varela Round", sans-serif;
+  color: #72db73;
+  font-size: 3em;
+  padding: 0 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.conatiner2-leftside-text {
+  font-size: 3em;
+
+  font-weight: 500;
+
+  color: white;
+}
+.conatiner2-leftside {
+  margin-left: 3em;
+  position: absolute;
+  width: 40%;
+  bottom: 5em;
+  padding: 0;
+  text-align: left;
+}
+.test-image {
+  width: 20vw;
+}
